@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.13.7" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2015-01-31T16:12:11Z</time>
+    <bounds maxlat="51.4732371" maxlon="-0.9911896" minlat="51.3417219" minlon="-1.5155120"/>
+  </metadata>
+
+  <wpt lat="51.3971708" lon="-0.9948466">
+    <name>Arrivee</name>
+    <sym>Flag</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.3532556" lon="-1.3703838">
+    <name>Info 1</name>
+    <sym>Flag</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+
+  <trk>
+    <name>KV100</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>White</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="51.3973500" lon="-0.9947708"/>
+      <trkpt lat="51.3975635" lon="-0.9934722"/>
+      <trkpt lat="51.3955715" lon="-0.9970383"/>
+      <trkpt lat="51.3943218" lon="-0.9980720"/>
+      <trkpt lat="51.3862253" lon="-1.0131976"/>
+      <trkpt lat="51.3861842" lon="-1.0189475"/>
+      <trkpt lat="51.3856139" lon="-1.0206125"/>
+      <trkpt lat="51.3830575" lon="-1.0213143"/>
+      <trkpt lat="51.3811103" lon="-1.0249488"/>
+      <trkpt lat="51.3808089" lon="-1.0265360"/>
+      <trkpt lat="51.3750664" lon="-1.0332686"/>
+      <trkpt lat="51.3733848" lon="-1.0364653"/>
+      <trkpt lat="51.3729203" lon="-1.0400672"/>
+      <trkpt lat="51.3737070" lon="-1.0427807"/>
+      <trkpt lat="51.3736007" lon="-1.0462313"/>
+      <trkpt lat="51.3745108" lon="-1.0475774"/>
+      <trkpt lat="51.4016171" lon="-0.9995648"/>
+      <trkpt lat="51.4000160" lon="-0.9911896"/>
+      <trkpt lat="51.3975616" lon="-0.9932566"/>
+      <trkpt lat="51.3971252" lon="-0.9947758"/>
+    </trkseg>
+  </trk>
+
+</gpx>
