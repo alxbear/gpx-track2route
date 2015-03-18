@@ -1,4 +1,17 @@
-#!/usr/bin/python
+#!/usr/bin/env python
+#--------------------------------------------------------
+# Name:      bearings.py
+# Purpose:   Calculate the great circle distance and bearing
+#            between 2 points
+# 
+# Author:    Al Neal
+#
+# Created:   2015
+# Copyright: (c) Al Neal
+# Licence:   MIT
+#--------------------------------------------------------
+
+# The author claims no originality in the mathematics here presented
 
 from math import sin, sqrt, cos, pow, atan2, radians, degrees
 

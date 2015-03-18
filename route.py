@@ -1,4 +1,15 @@
-#!/usr/bin/python
+#!/usr/bin/env python
+#--------------------------------------------------------
+# Name:      route.py
+# Purpose:   Provides user interface and alternative 
+#            method to the track2route module
+# 
+# Author:    Al Neal
+#
+# Created:   2015
+# Copyright: (c) Al Neal
+# Licence:   MIT
+#--------------------------------------------------------
 
 from math import fabs, pi
 from heapq import nlargest
@@ -12,6 +23,7 @@ from bearings import bearing
 from track2route import RouteMaker
 
 class WrongFileType(ErrorHandler):
+    'User-friendly error report for SAX fatal error'
     def fatalError(self, exception):
         sys.stderr.write( "File not an XML document\n")
         sys.exit(0)
@@ -82,7 +94,7 @@ class RouteReducer(RouteMaker):
 
 
 
-"""################################################################"""
+#####################################################################
 
 def main():
     """

@@ -1,7 +1,21 @@
-#!/usr/bin/python
+#!/usr/bin/env python
+#--------------------------------------------------------
+# Name:      track2route.py
+# Purpose:   Read a GPX tracklog and write as GPX route
+# 
+# Author:    Al Neal
+#
+# Created:   2015
+# Copyright: (c) Al Neal
+# Licence:   MIT
+#--------------------------------------------------------
+
 
 from xml.sax.handler import ContentHandler
 from xml.sax import parse
+
+__VERSION__ = '0.1'
+__FILE__ = 'track2route'
 
 __metaclass__ = type
 
@@ -12,7 +26,6 @@ class RouteMaker(ContentHandler):
     Output sent to the terminal.
     Overload the handlers in the xml.sax module
     """
-    _VERSION_ = '0.1'
 
     wayPoints = []
     trackPoints = []
@@ -71,8 +84,8 @@ class RouteMaker(ContentHandler):
         if name == 'gpx':        
             print '<' + name,
             for k,v in attrs.items():            
-                if k == 'creator': print ' creator="RouteMaker.py"',
-                elif k == 'version': print ' version="%s"' % self._VERSION_,
+                if k == 'creator': print ' creator="%s"' % __FILE__,
+                elif k == 'version': print ' version="%s"' % __VERSION__,
                 else: print ' %s="%s"' % (k,v),
             print '>'
         elif name == 'wpt': # collect waypoints. Not used in this version
