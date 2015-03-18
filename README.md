@@ -14,31 +14,42 @@ bearings.py
   Great circle calculations
   
 testdata.gpx
+  A GPX file
+  
 README
-
+  This file
+  
+LICENSE
+  MIT license
+  
 Installation
 ------------
 Copy all files to the same directory
-python 2.7 installed in /usr/bin/python
-python xml.sax modules
-python argparser module
+Requires:
+  python 2.7
+  python xml.sax modules
+  python argparser module
 
 Usage
 -----
 $ ./route.py -f filename -p maxroutepoints > outputfile
 
-filename: gpx tracklog
+filename:       gpx tracklog
 maxroutepoints: The number of route points that your 
-  gps device can handle in a route file
+                gps device can handle in a route file
+
+Not tested on MS-Windows
 
 Future features
 ---------------
 1. Insert named waypoints into the route
 2. Create an iterative algorithm for point selection
+3. Add distance element into point selection
 
 Author
 ------
 alxbear on github
+Al Neal
 
 Version
 -------
@@ -46,7 +57,7 @@ Version: 0.1
 
 Date
 ----
-17-03-2015
+2015
 
 Contact
 -------
