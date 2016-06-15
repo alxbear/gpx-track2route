@@ -48,7 +48,7 @@ Future features
 
 Author
 ------
-alxbear on github
+xerbala on github
 Al Neal
 
 Version
